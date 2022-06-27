@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" initial-scale=1.0, minimum-scale=1.0,
+        maximum-scale=1.0, user-scalable=no">
     <title>周杰伦</title>
     <style>
         img {
@@ -14,7 +15,17 @@
 </head>
 
 <body>
-    <h1>
+
+    <nav>
+        <ol>
+            <li><a href="#jay">个人简介</a></li>
+            <li><a href="#events">重要事件</a></li>
+            <li><a href="#awards">成就和荣誉</a></li>
+            <li><a href="#works">主要作品</a></li>
+            <li><a href="#pictures">生活照</a></li>
+        </ol>
+    </nav>
+    <h1 id="jay">
         周杰伦
     </h1>
     <p>
@@ -22,7 +33,7 @@
         祖籍福建省泉州市永春县，中国台湾流行乐男歌手、音乐人、演员、导演、编剧，
         毕业于淡江中学。
     </p>
-    <h2>
+    <h2 id="events">
         重要事件
     </h2>
     <ul>
@@ -43,7 +54,7 @@
         <li>2021年在央视春晚演唱歌曲《Mojito》 。</li>
     </ul>
 
-    <h2>
+    <h2 id="awars">
         成就和荣誉
     </h2>
     <ul>
@@ -60,7 +71,7 @@
         <li>08年十大单曲——魔术先生</li>
         <li>TOP榜2009</li>
     </ul>
-    <h2>
+    <h2 id="works">
         主要作品
     </h2>
     <table>
@@ -131,10 +142,11 @@
     </table>
 
 
-    <h2> 生活照</h2>
-
-    <img src="1.jpg" alt="图一">
-
+    <h2 id="pictcres"> 生活照</h2>
+    <div>
+        <a href="1.jpg" target="_blank">
+            <img width="400" src="1.jpg" alt="图一"></a>
+    </div>
     <h2>生平</h2>
 
 </html>
